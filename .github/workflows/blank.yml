@@ -1,0 +1,27 @@
+// setting bg
+background("black");
+
+
+// creating sprite for spaceship 1, setting animation and setting scale
+var spaceship1 = createSprite(55, 210);{
+spaceship1.setAnimation("spacebattle_09_1");
+spaceship1.scale = 0.40
+
+
+//creating sprite for spaceship 2, setting animation and setting scale
+var spaceship2 = createSprite(345, 200);
+spaceship2.setAnimation("spacebattle_09_2");
+spaceship2.scale = 0.40
+
+
+//creating the projectile, setting animation and scale 
+var burst = createSprite(205, 200);
+burst.setAnimation("retro_purple_burst_1");
+burst.scale = 0.7
+        
+  
+}
+
+
+// draw sprites command
+drawSprites();
